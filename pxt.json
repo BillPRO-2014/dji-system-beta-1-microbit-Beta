@@ -1,12 +1,13 @@
 {
     "name": "dji-system-beta-1",
     "version": "1.0.0",
-    "description": "DJI SYSTEM BETA 1 Custom Blocks",
+    "description": "DJI SYSTEM BETA 1",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "oled-ssd1306": "github:tinkertanker/pxt-oled-ssd1306"
     },
     "files": [
         "dji.ts"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
