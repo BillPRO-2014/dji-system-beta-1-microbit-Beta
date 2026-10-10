@@ -1,13 +1,14 @@
 {
     "name": "dji-system-beta-1",
     "version": "1.0.0",
-    "description": "DJI SYSTEM BETA 1 - Microbit DJI FLY, 20 Games, Rain and Fire Detection",
+    "description": "DJI SYSTEM BETA 1 - micro:bit DJI FLY, 20 Games, Rain and Fire Detection",
     "dependencies": {
         "core": "*",
         "oled-ssd1306": "github:tinkertanker/pxt-oled-ssd1306"
     },
     "files": [
-        "main.ts"
+        "main.ts",
+        "dji.ts"
     ],
     "preferredEditor": "tsprj"
 }
